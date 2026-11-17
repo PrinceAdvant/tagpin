@@ -1,0 +1,14 @@
+[package]
+name = "tagpin"
+version = "0.1.0"
+edition = "2021"
+description = "Find unpinned container image references (latest or no tag) in Dockerfiles and Docker Compose files."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/PrinceAdvant/tagpin"
+homepage = "https://peon.sh/docs/docker-images"
+documentation = "https://docs.rs/tagpin"
+keywords = ["docker", "dockerfile", "compose", "images", "cli"]
+categories = ["command-line-utilities", "development-tools"]
+
+[dependencies]
